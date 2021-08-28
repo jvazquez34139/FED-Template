@@ -1,7 +1,5 @@
 # FED-Template
 ## Starter setup for front-end design with gulp
-##### Very basic node server
-not too useful unless you're used to `npm start`ing your projects
 
 ##### Gulp functions for automating styles testing
 - watchCSS
@@ -18,3 +16,6 @@ that take part in the automation functions for more specific isolated uses
 - clean
 
 each named very self explanitory and should work as long as the file stays updated as the directory gets updated.
+
+##### Very basic node server
+not too useful unless you're used to `npm start`ing your projects

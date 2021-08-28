@@ -1,0 +1,76 @@
+// $variable: value
+// @import './filebasename'
+// @function name($,$){@return};
+// @mixin name{props};
+// @mixin name($){props}
+// @include mixinName;
+// @extend superclass
+//
+@import './resets';
+@import './variables';
+@import './base';
+@import './grid-sim';
+@import './typography';
+@import './header';
+@import './nav';
+@import './content';
+@import './form';
+@import './footer';
+@import './mobile';
+// @function weight($weight-name){
+//   @return map-get($font-weights, $weight-name);
+// }
+//
+// @mixin flexCenter{
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+//
+// @mixin theme($light-theme: true){
+//   @if $light-theme{
+//     background: lighten($primary-color, 100%);
+//     color: darken($text-color, 100%);
+//   }
+// }
+//
+// @mixin mobile {
+//   @media (max-width: $mobile) {
+//     @content;
+//   }
+// }
+//
+// body{
+//   background: $primary-color;
+//   color: $text-color;
+// }
+//
+// .main{
+//   @include flexCenter;
+//   width: 80% - 40%;
+//   margin: 0 auto;
+//
+//   #{&}__paragraph1{
+//     font-weight: weight(bold);
+//
+//     &:hover{
+//       color:pink;
+//     }
+//   }
+//
+//   #{&}__paragraph2{
+//     @extend .main__paragraph1;
+//
+//     &:hover{
+//       color: $accent-color;
+//     }
+//   }
+//
+//   @include mobile{
+//     flex-direction: column;
+//   }
+// }
+//
+// .light {
+//   @include theme($light-theme: true);
+// }

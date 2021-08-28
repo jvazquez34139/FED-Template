@@ -1,0 +1,43 @@
+{
+  "name": "fed-template",
+  "version": "1.0.0",
+  "description": "Starter setup for front-end design with gulp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvazquez34139/FED-Template.git"
+  },
+  "keywords": [
+    "Front-end",
+    "CSS",
+    "SASS",
+    "HTML",
+    "JS",
+    "Starter",
+    "gulp",
+    "Javascript"
+  ],
+  "author": "Jose Vazquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jvazquez34139/FED-Template/issues"
+  },
+  "homepage": "https://github.com/jvazquez34139/FED-Template#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
